@@ -1,20 +1,19 @@
+import {appendElementWithClassAndInnertext} from '../../functions/functions.js';
+
 fetch('http://jsonplaceholder.typicode.com/users')
     .then(resp=>resp.json())
     .then(users=>{
+
+        let container=document.getElementsByClassName('container')[0];
         for (const user of users) {
-            let divUser=document.createElement('div');
-            divUser.classList.add('user');
-            let h2=document.createElement('h2');
-            let {id, name}=user;
-            h2.innerText=`${id} ${name}`;
+            const {id, name}=user;
+            const divUser=appendElementWithClassAndInnertext(container,'div','user');
+            appendElementWithClassAndInnertext(divUser,'h2','',`${id} ${name}`);
+            const a=appendElementWithClassAndInnertext(divUser,'a','',);
+            a.href='user-details/user-details.html?userdata='+JSON.stringify(user);
 
             let svgClone = document.querySelector('svg').cloneNode(true);
             svgClone.classList.remove('display-none');
-            let a=document.createElement('a');
-            a.href='user-details/user-details.html?userdata='+JSON.stringify(user);
             a.appendChild(svgClone);
-            divUser.append(h2,a);
-            let container=document.getElementsByClassName('container')[0];
-            container.appendChild(divUser);
         }
     });

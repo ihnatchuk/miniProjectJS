@@ -12,14 +12,14 @@ body, div, h1, h2, h3, p{
     padding: 10px;
     background-color: #a5cdf6;
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     text-align: center;
 }
 .user{
     margin-bottom: 10px;
     padding: 10px 40px;
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     background-color: #f4fcb0;
 }
 .level1{
@@ -35,17 +35,18 @@ body, div, h1, h2, h3, p{
     padding-left: 20px;
 }
 button{
+    color: #0a3e65;
     background-color: #a5cdf6;
     border-radius: 10px;
     border: 1px solid transparent;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     height: 2em;
     width: 100%;
     font-size: 1em;
     font-weight: 500;
 }
 button:hover{
-    box-shadow: #5194f1 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.49) 0 3px 6px, rgba(0, 0, 255, 0.69) 0 3px 6px;
     font-weight: 700;
     cursor: pointer;
 }
@@ -54,7 +55,7 @@ button:hover{
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     background-color: #e3f5f6;
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +66,7 @@ button:hover{
     width: 19%;
     border-radius: 5px;
     background-color: #f4fcb0;
-    box-shadow: #b6d0f6 3px 3px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,8 +78,8 @@ a{
     text-align: center;
 }
 .post:hover{
-    box-shadow: #5194f1 3px 3px;
-    color: #5078a2;
+    box-shadow: rgba(0, 0, 255, 0.49) 0 3px 6px, rgba(0, 0, 255, 0.69) 0 3px 6px;
+    color: #092c52;
 }
 .post:hover a{
     bottom: 5px;

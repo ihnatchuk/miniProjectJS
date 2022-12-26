@@ -15,7 +15,7 @@ body, div, h1, h2, h3, p{
     padding: 10px;
     background-color: #a5cdf6;
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     margin-bottom: 10px;
     width: 93.33%;
     text-align: center;
@@ -27,14 +27,14 @@ body, div, h1, h2, h3, p{
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     position: relative;
     overflow: hidden;
     transition: background-color ease-in-out 0.4s, color ease-in-out 0.4s;
 }
 .user:hover{
+    box-shadow: rgba(0, 0, 255, 0.29) 0 10px 20px, rgba(0, 0, 255, 0.59) 0 6px 6px;
     background-color: rgba(255, 255, 0, 0.4);
-    box-shadow: #5194f1 5px 5px;
     color: #2a46fd;
 }
 .user:hover a{

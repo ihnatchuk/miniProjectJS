@@ -11,7 +11,7 @@ body, div, h1, h2, h3, p{
     padding: 10px;
     background-color: #a5cdf6;
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -19,7 +19,7 @@ body, div, h1, h2, h3, p{
     background-color: #f4fcb0;
     padding: 20px 40px;
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     margin-bottom: 10px;
 }
 .post h2,h3{
@@ -27,7 +27,7 @@ body, div, h1, h2, h3, p{
 }
 .comments{
     border-radius: 10px;
-    box-shadow: #8bb6f3 5px 5px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
@@ -41,7 +41,7 @@ body, div, h1, h2, h3, p{
     width: 19%;
     background-color: #f4fcb0;
     border-radius: 5px;
-    box-shadow: #b6d0f6 3px 3px;
+    box-shadow: rgba(0, 0, 255, 0.29) 0 3px 6px, rgba(0, 0, 255, 0.49) 0 3px 6px;
     display: flex;
     flex-direction: column;
     padding: 10px;
