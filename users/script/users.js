@@ -1,4 +1,12 @@
-import {appendElementWithClassAndInnertext} from '../../functions/functions.js';
+function appendElementWithClassAndInnertext(ancestor, tag, className, innerText){
+    const element = document.createElement(tag);
+    if (className){
+        element.classList.add(className);
+    }
+    element.innerText=innerText||'';
+    ancestor.appendChild(element);
+    return element;
+}
 
 fetch('http://jsonplaceholder.typicode.com/users')
     .then(resp=>resp.json())
