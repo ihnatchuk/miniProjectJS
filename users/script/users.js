@@ -8,7 +8,7 @@ function appendElementWithClassAndInnertext(ancestor, tag, className, innerText)
     return element;
 }
 
-fetch('http://jsonplaceholder.typicode.com/users')
+fetch('https://jsonplaceholder.typicode.com/users')
     .then(resp=>resp.json())
     .then(users=>{
 
